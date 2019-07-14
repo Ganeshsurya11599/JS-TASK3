@@ -1,0 +1,56 @@
+.container-fluid{
+	background-image: url(w.jpg);
+	text-align: center;
+	background-repeat: no-repeat;
+}
+@media screen and (max-width: 425px){
+	*{
+		overflow-y: hidden;
+	}
+}
+.button{
+	width: 75px;
+	height: 40px;
+	cursor: pointer;
+	background-color: lightgray;
+	border-radius: 10px;
+	outline: 0;
+}
+.button1{
+	width: 75px;
+	height: 40px;
+	cursor: pointer;
+	background-color:black;
+	color: white;
+	border-radius: 10px;
+	outline: 0;
+}
+.button2{
+	width: 75px;
+	height: 40px;
+	cursor: pointer;
+	background-color:red;
+	color: white;
+	border-radius: 10px;
+	outline: 0;
+}
+.button3{
+	width: 75px;
+	height: 40px;
+	cursor: pointer;
+	background-color:lightgreen;
+	font-weight: bolder;
+	font-size: 20px;
+	color: blue;
+	border-radius: 10px;
+	outline: 0;
+}
+#textview{
+	width:310px;
+	padding: 15px;
+	background-color:#ffff99;
+}
+.container{
+	width: 340px;
+	background-color: #AFEEEE;
+}
